@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://wegomanage-backend.onrender.com/api/:path*"
+    },
+    {
+      "source": "/health",
+      "destination": "https://wegomanage-backend.onrender.com/health"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
